@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--##################################grouplist的公共配置########################################-->
+    <!--dimen-->
+    <dimen name="mui_list_divider_height">1px</dimen>
+    <dimen name="gx_groupList_item_minHeight">45dp</dimen>
+    <dimen name="gx_groupList_item_horizontalPadding">16dp</dimen>
+    <dimen name="gx_groupList_item_innerMargin">10dp</dimen>
+    <dimen name="gx_groupList_item_headerHeight">10dp</dimen>
+    <!--字体大小-->
+    <dimen name="gx_groupList_item_title_textSize">15sp</dimen>
+    <dimen name="gx_groupList_item_subTitle_textSize">12sp</dimen>
+    <dimen name="gx_groupList_item_detail_textSize">13sp</dimen>
+    <dimen name="gx_groupList_item_header_textSize">16sp</dimen>
+    <!--color-->
+    <color name="gx_groupList_item_title_textColor">#000000</color>
+    <color name="gx_groupList_item_subTitle_textColor">#282828</color>
+    <color name="gx_groupList_item_detail_textColor">#888888</color>
+    <color name="gx_groupList_item_header_textColor">#000000</color>
+    <color name="mui_drawable_color_list_item_pressed">#DEE0E2</color>
+</resources>

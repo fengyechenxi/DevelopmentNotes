@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        android:id="@+id/gx_navigationBar_left_container"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_marginRight="@dimen/gx_navigationBar_innerMargin"
+        />
+
+
+    <TextView
+        android:id="@+id/gx_navigationBar_titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/gx_navigationBar_titleTextSize"
+        android:textColor="@color/gx_navigationBar_titleTextColor"
+        />
+
+    <LinearLayout
+        android:id="@+id/gx_navigationBar_right_container"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|right"
+        android:layout_toRightOf="@id/gx_navigationBar_titleTextView"
+        android:layout_marginLeft="@dimen/gx_navigationBar_innerMargin"
+        />
+
+
+
+</merge>

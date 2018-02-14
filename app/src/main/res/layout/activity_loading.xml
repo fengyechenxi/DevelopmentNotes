@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/loading_container"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_ui_loading_style1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="界面加载样式1" />
+
+        <Button
+            android:id="@+id/btn_ui_loading_style2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="界面加载样式2" />
+        <Button
+            android:id="@+id/btn_empty_loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="页面加载数据为空" />
+
+        <Button
+            android:id="@+id/btn_view_loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="单个View加载" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

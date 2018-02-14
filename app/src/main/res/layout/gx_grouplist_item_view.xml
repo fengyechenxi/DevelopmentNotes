@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ImageView
+        android:id="@+id/gx_groupList_item_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/gx_groupList_item_innerMargin"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/gx_groupList_item_innerMargin"
+            >
+            <TextView
+                android:id="@+id/gx_groupList_item_titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:textColor="@color/gx_groupList_item_title_textColor"
+                android:textSize="@dimen/gx_groupList_item_title_textSize"
+                />
+
+            <TextView
+                android:id="@+id/gx_groupList_item_subTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:textColor="@color/gx_groupList_item_subTitle_textColor"
+                android:textSize="@dimen/gx_groupList_item_subTitle_textSize"
+                android:visibility="gone"
+                android:layout_below="@id/gx_groupList_item_titleTextView"
+                />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/gx_groupList_item_detailTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:includeFontPadding="false"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/gx_groupList_item_innerMargin"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:gravity="right"
+            android:textColor="@color/gx_groupList_item_detail_textColor"
+            android:textSize="@dimen/gx_groupList_item_detail_textSize"
+            />
+
+
+    <FrameLayout
+        android:id="@+id/gx_groupList_item_accessoryView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        />
+
+
+</merge>

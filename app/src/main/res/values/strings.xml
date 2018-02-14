@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Notes</string>
+
+
+    <!--bezier-->
+    <string name="title_bezier">贝塞尔曲线</string>
+    <string name="details_bezier">贝塞尔曲线自定义View的简单用法</string>
+
+    <!--navigation_bar-->
+    <string name="title_navigation_bar">导航栏</string>
+    <string name="details_navigation_bar">Android和Ios一键切换的导航栏</string>
+    <!--load_more_recyclerview-->
+    <string name="title_load_more_recyclerview">上拉加载RecyclerView</string>
+    <string name="details_load_more_recyclerview">利用装饰者模式封装的，具有上拉加载，添加Header的功能，并且使用多个Adapter解耦，逻辑分离，互不干扰，简单易用，配合SwipeRefreshLayout效果很好</string>
+    <!--loading-->
+    <string name="title_loading">视图加载状态切换</string>
+    <string name="details_loading">无侵入，完全解耦，随手可配置，高效显示Activity，Fragment或单个View的加载提示，错误提示，数据为空提示等，各种自定义结果状态</string>
+    <!--Toast-->
+    <string name="title_toast">自定义Toast</string>
+    <string name="details_toast">Builder方法构建，可设置消失时长，也可以自定义是否自动消失，添加展示动画</string>
+
+</resources>

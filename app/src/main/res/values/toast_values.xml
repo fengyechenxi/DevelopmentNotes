@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToastView" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item><!--activity不变暗-->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowEnterAnimation">@anim/toastview_show</item>
+        <item name="android:windowExitAnimation">@anim/toastview_dissmiss</item>
+    </style>
+
+
+    <style name="TopSheetAnimStyle" >
+        <item name="android:windowEnterAnimation">@anim/top_sheet_enter</item>
+        <item name="android:windowExitAnimation">@anim/top_sheet_exit</item>
+    </style>
+
+    <style name="BottomSheetAnimStyle" >
+        <item name="android:windowEnterAnimation">@anim/bottom_sheet_enter</item>
+        <item name="android:windowExitAnimation">@anim/bottom_sheet_exit</item>
+    </style>
+    <style name="FadeAnimStyle" >
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="12dp"
+              android:paddingRight="12dp"
+              android:id="@+id/ll_input"
+    >
+
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/ic_search"
+        android:layout_gravity="center_vertical"
+        android:contentDescription=""
+        />
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textColorHint="#a6a6a6"
+        android:layout_gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginLeft="6dp"
+        />
+
+</LinearLayout>

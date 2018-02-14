@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="gx_navigationBar_contentInset">12dp</dimen>
+    <dimen name="gx_navigationBar_innerMargin">10dp</dimen>
+    <dimen name="gx_navigationBar_itemMargin">8dp</dimen>
+    <dimen name="gx_navigationBar_titleTextSize">20sp</dimen>
+    <color name="gx_navigationBar_titleTextColor">#ffffff</color>
+
+</resources>

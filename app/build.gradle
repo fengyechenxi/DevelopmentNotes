@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+//使用aop插件
+apply plugin: 'com.aop.plugin'
+
+android {
+    compileSdkVersion androidConfigs.compileSdkVersion
+    defaultConfig {
+        applicationId "org.gx.notes"
+        minSdkVersion androidConfigs.minSdkVersion
+        targetSdkVersion androidConfigs.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled androidConfigs.release_minifyEnabled
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    //
+    api dependenciesLibs.support_appcompat_v7
+    api dependenciesLibs.support_constraint_layout
+    api dependenciesLibs.recyclerview
+    //
+    api dependenciesLibs.butterknife
+    annotationProcessor dependenciesLibs.butterknife_compiler
+    //
+    api dependenciesLibs.rxbinding
+    api dependenciesLibs.rxjava
+}
